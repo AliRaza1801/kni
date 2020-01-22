@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">KNIT</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="j">"WELCOME TO KAMLA NEHRU INSTITUTE OF TECHNOLOGY"</string>
+    <string name="k">THANKS FOR REGISTERING IN KNIT</string>
+    <string name="b">BACK</string>
+    <string name="l">LOGIN</string>
+    <string name="u">Username</string>
+    <string name="v">ENTER YOUR REGISTER USERNAME</string>
+    <string name="s">SUBMIT</string>
+    <string name="pp">Confirm Password</string>
+    <string name="n">Name</string>
+    <string name="r">Roll No.</string>
+    <string name="ph">Phone No.</string>
+    <string name="e">E-mail</string>
+    <string name="a">Age</string>
+    <string name="dd">Enter your mobile number</string>
+    <string name="sc">dd/mm/yyyy</string>
+    <string name="cds">xyz@abc.com</string>
+    <string name="csc">age</string>
+    <string name="xzcxz">Enter your Roll Number</string>
+    <string name="cscds">Enter your name</string>
+    <string name="dscxzcxz">DATE OF BIRTH</string>
+</resources>

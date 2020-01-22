@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admininfo"
+    android:background="@android:color/holo_blue_light">
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false">
+
+        <requestFocus />
+
+    </SearchView>
+
+    <ListView
+        android:id="@+id/listViewEmployees"
+        android:layout_width="match_parent"
+        android:layout_height="666dp"
+        android:layout_below="@+id/search"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="3dp" />
+
+    <Button
+        android:id="@+id/sorta-z"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-3dp"
+        android:layout_marginLeft="-3dp"
+        android:layout_toEndOf="@+id/search"
+        android:layout_toRightOf="@+id/search"
+        android:text="A-Z" />
+
+    <Button
+        android:id="@+id/sortz-a"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_toEndOf="@+id/sorta-z"
+        android:layout_toRightOf="@+id/sorta-z"
+        android:text="Z-A" />
+
+</RelativeLayout>

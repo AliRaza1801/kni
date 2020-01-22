@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.pegasus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".admininfo"></activity>
+        <activity android:name=".admininfo2"></activity>
+        <activity android:name=".admininfo3"></activity>
+        <activity android:name=".splash1" />
+        <activity android:name=".admin" />
+        <activity android:name=".adm" />
+        <activity android:name=".midphase" />
+        <activity android:name=".pre_registered" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".pre_register" />
+        <activity android:name=".login" />
+        <activity android:name=".detail" />
+        <activity android:name=".FORM" />
+        <activity android:name=".thanq" />
+        <activity android:name=".signup" />
+    </application>
+
+</manifest>
